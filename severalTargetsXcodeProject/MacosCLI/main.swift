@@ -1,5 +1,10 @@
 import Foundation
-import kotlin_library
+import KotlinLibrary
 
 print("Hello, World!")
-AKt.bar()
+
+let greeting = Greeting()
+print(greeting.greet())
+
+greeting.callBar()
+greeting.callBazz()

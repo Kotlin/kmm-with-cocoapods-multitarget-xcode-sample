@@ -1,3 +1,6 @@
+rootProject.name = "multitarget-xcode-with-kotlin-cocoapods-sample"
+enableFeaturePreview("TYPESAFE_PROJECT_ACCESSORS")
+
 pluginManagement {
     repositories {
         google()
@@ -12,7 +15,5 @@ dependencyResolutionManagement {
         mavenCentral()
     }
 }
-
-rootProject.name = "multitarget-xcode-with-kotlin-cocoapods-sample"
 
 include(":kotlin-library")

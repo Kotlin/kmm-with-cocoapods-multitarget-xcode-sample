@@ -6,18 +6,18 @@ Pod::Spec.new do |spec|
     spec.authors                  = ''
     spec.license                  = ''
     spec.summary                  = 'Kotlin CocoaPods library'
-    spec.vendored_frameworks      = 'build/cocoapods/framework/kotlin_library.framework'
+    spec.vendored_frameworks      = 'build/cocoapods/framework/KotlinLibrary.framework'
     spec.libraries                = 'c++'
-    spec.ios.deployment_target = '13.5'
-    spec.osx.deployment_target = '10.15'
-    spec.tvos.deployment_target = '13.4'
-    spec.watchos.deployment_target = '6.2'
+    spec.ios.deployment_target    = '16.6'
+    spec.osx.deployment_target    = '13.5'
+    spec.tvos.deployment_target    = '16.6'
+    spec.watchos.deployment_target    = '9.6'
                 
                 
-    if !Dir.exist?('build/cocoapods/framework/kotlin_library.framework') || Dir.empty?('build/cocoapods/framework/kotlin_library.framework')
+    if !Dir.exist?('build/cocoapods/framework/KotlinLibrary.framework') || Dir.empty?('build/cocoapods/framework/KotlinLibrary.framework')
         raise "
 
-        Kotlin framework 'kotlin_library' doesn't exist yet, so a proper Xcode project can't be generated.
+        Kotlin framework 'KotlinLibrary' doesn't exist yet, so a proper Xcode project can't be generated.
         'pod install' should be executed after running ':generateDummyFramework' Gradle task:
 
             ./gradlew :kotlin-library:generateDummyFramework
@@ -25,9 +25,13 @@ Pod::Spec.new do |spec|
         Alternatively, proper pod installation is performed during Gradle sync in the IDE (if Podfile location is set)"
     end
                 
+    spec.xcconfig = {
+        'ENABLE_USER_SCRIPT_SANDBOXING' => 'NO',
+    }
+                
     spec.pod_target_xcconfig = {
         'KOTLIN_PROJECT_PATH' => ':kotlin-library',
-        'PRODUCT_MODULE_NAME' => 'kotlin_library',
+        'PRODUCT_MODULE_NAME' => 'KotlinLibrary',
     }
                 
     spec.script_phases = [
