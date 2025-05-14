@@ -3,56 +3,40 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 54;
+	objectVersion = 77;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0A102B48CA171835CEF9F712 /* Pods_WatchosApp_WatchKit_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B69CEF4C381AB2FEAA9C89DA /* Pods_WatchosApp_WatchKit_App.framework */; };
-		0F9AED2AC52713BE0B9832E6 /* Pods_TVosApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBE1D29D8612C6BAA8D0152F /* Pods_TVosApp.framework */; };
-		317785C69D909B28A5149ABC /* Pods_MacosCLI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBBDB59783ABC23EA8CB35E6 /* Pods_MacosCLI.framework */; };
-		6D2BF627987656F18389D73B /* Pods_iosApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CAFAFB8F8CE13EC60D6B299 /* Pods_iosApp.framework */; };
-		7DC85AEA3B5306ECB5CC82A1 /* Pods_WatchosApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9381ECACCC7C08BF844C7C4 /* Pods_WatchosApp.framework */; };
-		CB1BD2B4249B4D2000707679 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB1BD2B3249B4D2000707679 /* AppDelegate.swift */; };
-		CB1BD2B6249B4D2000707679 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB1BD2B5249B4D2000707679 /* SceneDelegate.swift */; };
-		CB1BD2B8249B4D2000707679 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB1BD2B7249B4D2000707679 /* ViewController.swift */; };
-		CB1BD2BB249B4D2000707679 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB1BD2B9249B4D2000707679 /* Main.storyboard */; };
-		CB1BD2BD249B4D2200707679 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB1BD2BC249B4D2200707679 /* Assets.xcassets */; };
-		CB1BD2C0249B4D2200707679 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB1BD2BE249B4D2200707679 /* LaunchScreen.storyboard */; };
-		CB1BD2CC249B4D4C00707679 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB1BD2CB249B4D4C00707679 /* main.swift */; };
-		CB1BD2D7249B4DDC00707679 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB1BD2D6249B4DDC00707679 /* AppDelegate.swift */; };
-		CB1BD2D9249B4DDC00707679 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB1BD2D8249B4DDC00707679 /* ViewController.swift */; };
-		CB1BD2DC249B4DDC00707679 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB1BD2DA249B4DDC00707679 /* Main.storyboard */; };
-		CB1BD2DE249B4DDC00707679 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB1BD2DD249B4DDC00707679 /* Assets.xcassets */; };
-		CB1BD2E1249B4DDC00707679 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB1BD2DF249B4DDC00707679 /* LaunchScreen.storyboard */; };
-		CB1BD2EC249B4DF700707679 /* WatchosApp WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = CB1BD2EB249B4DF700707679 /* WatchosApp WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		CB1BD2F2249B4DF700707679 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB1BD2F0249B4DF700707679 /* Interface.storyboard */; };
-		CB1BD2F4249B4DF700707679 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB1BD2F3249B4DF700707679 /* Assets.xcassets */; };
-		CB1BD2FB249B4DF700707679 /* WatchosApp WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = CB1BD2FA249B4DF700707679 /* WatchosApp WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		CB1BD300249B4DF700707679 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB1BD2FF249B4DF700707679 /* InterfaceController.swift */; };
-		CB1BD302249B4DF700707679 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB1BD301249B4DF700707679 /* ExtensionDelegate.swift */; };
-		CB1BD304249B4DF700707679 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB1BD303249B4DF700707679 /* NotificationController.swift */; };
-		CB1BD306249B4DF800707679 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB1BD305249B4DF800707679 /* Assets.xcassets */; };
-		DE7D6D1E0778C08DFE051771 /* Pods_WatchosApp_WatchKit_Extension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4ACDFD19F1B664CB3ABD52CC /* Pods_WatchosApp_WatchKit_Extension.framework */; };
+		0EE3A876D8A5E07EA0D16414 /* Pods_WatchosApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7FCF5023FD29D2ECA8D31FB /* Pods_WatchosApp.framework */; };
+		213EDA065B1198F52F24AB39 /* Pods_TVosApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EEB6E773C5ED94ED846DDED /* Pods_TVosApp.framework */; };
+		757B28B26327694CA1125A19 /* Pods_MacosCLI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2CE66568228293211DDF406 /* Pods_MacosCLI.framework */; };
+		A1D2825D34101C92C788B891 /* Pods_iosApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F707C3ABB4595B8D1306B070 /* Pods_iosApp.framework */; };
+		BD0A4CAA2DC2704D00FC6E3D /* WatchosApp Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = BD0A4CA92DC2704D00FC6E3D /* WatchosApp Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		F8228C1DF15CE0F199912FF7 /* Pods_WatchosApp_Watch_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A84C5F10BF4D718661C98AA8 /* Pods_WatchosApp_Watch_App.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		CB1BD2ED249B4DF700707679 /* PBXContainerItemProxy */ = {
+		BD0A4CAB2DC2704D00FC6E3D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = CB1BD2A6249B4CDC00707679 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CB1BD2EA249B4DF700707679;
-			remoteInfo = "WatchosApp WatchKit App";
-		};
-		CB1BD2FC249B4DF700707679 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = CB1BD2A6249B4CDC00707679 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = CB1BD2F9249B4DF700707679;
-			remoteInfo = "WatchosApp WatchKit Extension";
+			remoteGlobalIDString = BD0A4CA82DC2704D00FC6E3D;
+			remoteInfo = "WatchosApp Watch App";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		BD0A4CB72DC2704E00FC6E3D /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				BD0A4CAA2DC2704D00FC6E3D /* WatchosApp Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		CB1BD2C7249B4D4C00707679 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -62,86 +46,68 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
-		CB1BD30C249B4DF800707679 /* Embed App Extensions */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 13;
-			files = (
-				CB1BD2FB249B4DF700707679 /* WatchosApp WatchKit Extension.appex in Embed App Extensions */,
-			);
-			name = "Embed App Extensions";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CB1BD310249B4DF800707679 /* Embed Watch Content */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
-			dstSubfolderSpec = 16;
-			files = (
-				CB1BD2EC249B4DF700707679 /* WatchosApp WatchKit App.app in Embed Watch Content */,
-			);
-			name = "Embed Watch Content";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		17CACAD262A1207E664A3285 /* Pods-WatchosApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WatchosApp.release.xcconfig"; path = "Target Support Files/Pods-WatchosApp/Pods-WatchosApp.release.xcconfig"; sourceTree = "<group>"; };
-		32979BA66F43524FB6EC7B71 /* Pods-WatchosApp WatchKit Extension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WatchosApp WatchKit Extension.release.xcconfig"; path = "Target Support Files/Pods-WatchosApp WatchKit Extension/Pods-WatchosApp WatchKit Extension.release.xcconfig"; sourceTree = "<group>"; };
-		3990CBD18133DB2B3950BF2A /* Pods-iosApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iosApp.debug.xcconfig"; path = "Target Support Files/Pods-iosApp/Pods-iosApp.debug.xcconfig"; sourceTree = "<group>"; };
-		4AA5CBD2B812BBF6FFF6F3FA /* Pods-WatchosApp WatchKit App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WatchosApp WatchKit App.debug.xcconfig"; path = "Target Support Files/Pods-WatchosApp WatchKit App/Pods-WatchosApp WatchKit App.debug.xcconfig"; sourceTree = "<group>"; };
-		4ACDFD19F1B664CB3ABD52CC /* Pods_WatchosApp_WatchKit_Extension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WatchosApp_WatchKit_Extension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		55D12ACF4D95D9E91870D01F /* Pods-WatchosApp WatchKit App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WatchosApp WatchKit App.release.xcconfig"; path = "Target Support Files/Pods-WatchosApp WatchKit App/Pods-WatchosApp WatchKit App.release.xcconfig"; sourceTree = "<group>"; };
-		5F4F0B7BA60A27DDA8F912E7 /* Pods-iosApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iosApp.release.xcconfig"; path = "Target Support Files/Pods-iosApp/Pods-iosApp.release.xcconfig"; sourceTree = "<group>"; };
-		8A5AD69C517E146F2E20F959 /* Pods-MacosCLI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MacosCLI.release.xcconfig"; path = "Target Support Files/Pods-MacosCLI/Pods-MacosCLI.release.xcconfig"; sourceTree = "<group>"; };
-		8CAFAFB8F8CE13EC60D6B299 /* Pods_iosApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iosApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B1D2B5D5D29EE3B5ADF7DA9E /* Pods-MacosCLI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MacosCLI.debug.xcconfig"; path = "Target Support Files/Pods-MacosCLI/Pods-MacosCLI.debug.xcconfig"; sourceTree = "<group>"; };
-		B69CEF4C381AB2FEAA9C89DA /* Pods_WatchosApp_WatchKit_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WatchosApp_WatchKit_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B9BB0FD19E93A504C61D0649 /* Pods-TVosApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TVosApp.release.xcconfig"; path = "Target Support Files/Pods-TVosApp/Pods-TVosApp.release.xcconfig"; sourceTree = "<group>"; };
-		BBBDB59783ABC23EA8CB35E6 /* Pods_MacosCLI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MacosCLI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C5F34FB6F56729F15D3D76CC /* Pods-WatchosApp WatchKit Extension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WatchosApp WatchKit Extension.debug.xcconfig"; path = "Target Support Files/Pods-WatchosApp WatchKit Extension/Pods-WatchosApp WatchKit Extension.debug.xcconfig"; sourceTree = "<group>"; };
+		073C3209F20F4D280580C42F /* Pods-WatchosApp Watch App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WatchosApp Watch App.debug.xcconfig"; path = "Target Support Files/Pods-WatchosApp Watch App/Pods-WatchosApp Watch App.debug.xcconfig"; sourceTree = "<group>"; };
+		1B4772FC76BA8F8C1AA5175B /* Pods-WatchosApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WatchosApp.release.xcconfig"; path = "Target Support Files/Pods-WatchosApp/Pods-WatchosApp.release.xcconfig"; sourceTree = "<group>"; };
+		1B599EDB55B2EA2D3AA853EB /* Pods-iosApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iosApp.debug.xcconfig"; path = "Target Support Files/Pods-iosApp/Pods-iosApp.debug.xcconfig"; sourceTree = "<group>"; };
+		2DAED3B0E22BD6933C35FAF0 /* Pods-MacosCLI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MacosCLI.debug.xcconfig"; path = "Target Support Files/Pods-MacosCLI/Pods-MacosCLI.debug.xcconfig"; sourceTree = "<group>"; };
+		3A49883EBDD15089157637B4 /* Pods-MacosCLI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MacosCLI.release.xcconfig"; path = "Target Support Files/Pods-MacosCLI/Pods-MacosCLI.release.xcconfig"; sourceTree = "<group>"; };
+		5516925726421EE0CC88D672 /* Pods-TVosApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TVosApp.release.xcconfig"; path = "Target Support Files/Pods-TVosApp/Pods-TVosApp.release.xcconfig"; sourceTree = "<group>"; };
+		8EEB6E773C5ED94ED846DDED /* Pods_TVosApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TVosApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AE5EDB5D38387FE2D03A2C8 /* Pods-WatchosApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WatchosApp.debug.xcconfig"; path = "Target Support Files/Pods-WatchosApp/Pods-WatchosApp.debug.xcconfig"; sourceTree = "<group>"; };
+		A7AE19F3B271A986FA758600 /* Pods-WatchosApp Watch App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WatchosApp Watch App.release.xcconfig"; path = "Target Support Files/Pods-WatchosApp Watch App/Pods-WatchosApp Watch App.release.xcconfig"; sourceTree = "<group>"; };
+		A7FCF5023FD29D2ECA8D31FB /* Pods_WatchosApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WatchosApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A84C5F10BF4D718661C98AA8 /* Pods_WatchosApp_Watch_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WatchosApp_Watch_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6B1FD987B3266508DC6F67C /* Pods-iosApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iosApp.release.xcconfig"; path = "Target Support Files/Pods-iosApp/Pods-iosApp.release.xcconfig"; sourceTree = "<group>"; };
+		BD0A4CA42DC2704D00FC6E3D /* WatchosApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WatchosApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD0A4CA92DC2704D00FC6E3D /* WatchosApp Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WatchosApp Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB1BD2B0249B4D2000707679 /* iosApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iosApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		CB1BD2B3249B4D2000707679 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CB1BD2B5249B4D2000707679 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		CB1BD2B7249B4D2000707679 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		CB1BD2BA249B4D2000707679 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		CB1BD2BC249B4D2200707679 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		CB1BD2BF249B4D2200707679 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		CB1BD2C1249B4D2200707679 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CB1BD2C9249B4D4C00707679 /* MacosCLI */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MacosCLI; sourceTree = BUILT_PRODUCTS_DIR; };
-		CB1BD2CB249B4D4C00707679 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		CB1BD2D4249B4DDC00707679 /* TVosApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TVosApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		CB1BD2D6249B4DDC00707679 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CB1BD2D8249B4DDC00707679 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		CB1BD2DB249B4DDC00707679 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		CB1BD2DD249B4DDC00707679 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		CB1BD2E0249B4DDC00707679 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		CB1BD2E2249B4DDC00707679 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CB1BD2E8249B4DF600707679 /* WatchosApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WatchosApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		CB1BD2EB249B4DF700707679 /* WatchosApp WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WatchosApp WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		CB1BD2F1249B4DF700707679 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
-		CB1BD2F3249B4DF700707679 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		CB1BD2F5249B4DF700707679 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CB1BD2FA249B4DF700707679 /* WatchosApp WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "WatchosApp WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
-		CB1BD2FF249B4DF700707679 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
-		CB1BD301249B4DF700707679 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
-		CB1BD303249B4DF700707679 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
-		CB1BD305249B4DF800707679 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		CB1BD307249B4DF800707679 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CB1BD308249B4DF800707679 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
-		D79354633BEA5F7606CB868C /* Pods-WatchosApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WatchosApp.debug.xcconfig"; path = "Target Support Files/Pods-WatchosApp/Pods-WatchosApp.debug.xcconfig"; sourceTree = "<group>"; };
-		F0C4612AF73E3769415A29B1 /* Pods-TVosApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TVosApp.debug.xcconfig"; path = "Target Support Files/Pods-TVosApp/Pods-TVosApp.debug.xcconfig"; sourceTree = "<group>"; };
-		F9381ECACCC7C08BF844C7C4 /* Pods_WatchosApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WatchosApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		FBE1D29D8612C6BAA8D0152F /* Pods_TVosApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TVosApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF66472EB58A956851EF092B /* Pods-TVosApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TVosApp.debug.xcconfig"; path = "Target Support Files/Pods-TVosApp/Pods-TVosApp.debug.xcconfig"; sourceTree = "<group>"; };
+		F2CE66568228293211DDF406 /* Pods_MacosCLI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MacosCLI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F707C3ABB4595B8D1306B070 /* Pods_iosApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iosApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		BD0A4CAD2DC2704D00FC6E3D /* WatchosApp Watch App */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "WatchosApp Watch App";
+			sourceTree = "<group>";
+		};
+		BD0A4CD92DC2724000FC6E3D /* TVosApp */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = TVosApp;
+			sourceTree = "<group>";
+		};
+		BD0A4CDE2DC2724400FC6E3D /* MacosCLI */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = MacosCLI;
+			sourceTree = "<group>";
+		};
+		BD0A4CE32DC2724700FC6E3D /* iosApp */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = iosApp;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
 /* Begin PBXFrameworksBuildPhase section */
-		A14D9B4E0DE308EBEDBE323F /* Frameworks */ = {
+		0D0D8DA74C0EE3985280A759 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7DC85AEA3B5306ECB5CC82A1 /* Pods_WatchosApp.framework in Frameworks */,
+				0EE3A876D8A5E07EA0D16414 /* Pods_WatchosApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD0A4CA62DC2704D00FC6E3D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8228C1DF15CE0F199912FF7 /* Pods_WatchosApp_Watch_App.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,7 +115,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6D2BF627987656F18389D73B /* Pods_iosApp.framework in Frameworks */,
+				A1D2825D34101C92C788B891 /* Pods_iosApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -157,7 +123,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				317785C69D909B28A5149ABC /* Pods_MacosCLI.framework in Frameworks */,
+				757B28B26327694CA1125A19 /* Pods_MacosCLI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -165,23 +131,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0F9AED2AC52713BE0B9832E6 /* Pods_TVosApp.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CB1BD2F7249B4DF700707679 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				DE7D6D1E0778C08DFE051771 /* Pods_WatchosApp_WatchKit_Extension.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E40C55B407805C6F6E60E75A /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0A102B48CA171835CEF9F712 /* Pods_WatchosApp_WatchKit_App.framework in Frameworks */,
+				213EDA065B1198F52F24AB39 /* Pods_TVosApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -191,31 +141,28 @@
 		05D6FCDC1CDC24C84A5EA73F /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				B1D2B5D5D29EE3B5ADF7DA9E /* Pods-MacosCLI.debug.xcconfig */,
-				8A5AD69C517E146F2E20F959 /* Pods-MacosCLI.release.xcconfig */,
-				F0C4612AF73E3769415A29B1 /* Pods-TVosApp.debug.xcconfig */,
-				B9BB0FD19E93A504C61D0649 /* Pods-TVosApp.release.xcconfig */,
-				D79354633BEA5F7606CB868C /* Pods-WatchosApp.debug.xcconfig */,
-				17CACAD262A1207E664A3285 /* Pods-WatchosApp.release.xcconfig */,
-				4AA5CBD2B812BBF6FFF6F3FA /* Pods-WatchosApp WatchKit App.debug.xcconfig */,
-				55D12ACF4D95D9E91870D01F /* Pods-WatchosApp WatchKit App.release.xcconfig */,
-				C5F34FB6F56729F15D3D76CC /* Pods-WatchosApp WatchKit Extension.debug.xcconfig */,
-				32979BA66F43524FB6EC7B71 /* Pods-WatchosApp WatchKit Extension.release.xcconfig */,
-				3990CBD18133DB2B3950BF2A /* Pods-iosApp.debug.xcconfig */,
-				5F4F0B7BA60A27DDA8F912E7 /* Pods-iosApp.release.xcconfig */,
+				2DAED3B0E22BD6933C35FAF0 /* Pods-MacosCLI.debug.xcconfig */,
+				3A49883EBDD15089157637B4 /* Pods-MacosCLI.release.xcconfig */,
+				CF66472EB58A956851EF092B /* Pods-TVosApp.debug.xcconfig */,
+				5516925726421EE0CC88D672 /* Pods-TVosApp.release.xcconfig */,
+				9AE5EDB5D38387FE2D03A2C8 /* Pods-WatchosApp.debug.xcconfig */,
+				1B4772FC76BA8F8C1AA5175B /* Pods-WatchosApp.release.xcconfig */,
+				073C3209F20F4D280580C42F /* Pods-WatchosApp Watch App.debug.xcconfig */,
+				A7AE19F3B271A986FA758600 /* Pods-WatchosApp Watch App.release.xcconfig */,
+				1B599EDB55B2EA2D3AA853EB /* Pods-iosApp.debug.xcconfig */,
+				B6B1FD987B3266508DC6F67C /* Pods-iosApp.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
 		};
-		BA2744432002DA5187984540 /* Frameworks */ = {
+		82484B2D9C1D1D0686EB225E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				BBBDB59783ABC23EA8CB35E6 /* Pods_MacosCLI.framework */,
-				FBE1D29D8612C6BAA8D0152F /* Pods_TVosApp.framework */,
-				F9381ECACCC7C08BF844C7C4 /* Pods_WatchosApp.framework */,
-				B69CEF4C381AB2FEAA9C89DA /* Pods_WatchosApp_WatchKit_App.framework */,
-				4ACDFD19F1B664CB3ABD52CC /* Pods_WatchosApp_WatchKit_Extension.framework */,
-				8CAFAFB8F8CE13EC60D6B299 /* Pods_iosApp.framework */,
+				F2CE66568228293211DDF406 /* Pods_MacosCLI.framework */,
+				8EEB6E773C5ED94ED846DDED /* Pods_TVosApp.framework */,
+				A7FCF5023FD29D2ECA8D31FB /* Pods_WatchosApp.framework */,
+				A84C5F10BF4D718661C98AA8 /* Pods_WatchosApp_Watch_App.framework */,
+				F707C3ABB4595B8D1306B070 /* Pods_iosApp.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -223,14 +170,13 @@
 		CB1BD2A5249B4CDC00707679 = {
 			isa = PBXGroup;
 			children = (
-				CB1BD2B2249B4D2000707679 /* iosApp */,
-				CB1BD2CA249B4D4C00707679 /* MacosCLI */,
-				CB1BD2D5249B4DDC00707679 /* TVosApp */,
-				CB1BD2EF249B4DF700707679 /* WatchosApp WatchKit App */,
-				CB1BD2FE249B4DF700707679 /* WatchosApp WatchKit Extension */,
+				BD0A4CE32DC2724700FC6E3D /* iosApp */,
+				BD0A4CDE2DC2724400FC6E3D /* MacosCLI */,
+				BD0A4CD92DC2724000FC6E3D /* TVosApp */,
+				BD0A4CAD2DC2704D00FC6E3D /* WatchosApp Watch App */,
 				CB1BD2B1249B4D2000707679 /* Products */,
 				05D6FCDC1CDC24C84A5EA73F /* Pods */,
-				BA2744432002DA5187984540 /* Frameworks */,
+				82484B2D9C1D1D0686EB225E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -240,79 +186,60 @@
 				CB1BD2B0249B4D2000707679 /* iosApp.app */,
 				CB1BD2C9249B4D4C00707679 /* MacosCLI */,
 				CB1BD2D4249B4DDC00707679 /* TVosApp.app */,
-				CB1BD2E8249B4DF600707679 /* WatchosApp.app */,
-				CB1BD2EB249B4DF700707679 /* WatchosApp WatchKit App.app */,
-				CB1BD2FA249B4DF700707679 /* WatchosApp WatchKit Extension.appex */,
+				BD0A4CA42DC2704D00FC6E3D /* WatchosApp.app */,
+				BD0A4CA92DC2704D00FC6E3D /* WatchosApp Watch App.app */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		CB1BD2B2249B4D2000707679 /* iosApp */ = {
-			isa = PBXGroup;
-			children = (
-				CB1BD2B3249B4D2000707679 /* AppDelegate.swift */,
-				CB1BD2B5249B4D2000707679 /* SceneDelegate.swift */,
-				CB1BD2B7249B4D2000707679 /* ViewController.swift */,
-				CB1BD2B9249B4D2000707679 /* Main.storyboard */,
-				CB1BD2BC249B4D2200707679 /* Assets.xcassets */,
-				CB1BD2BE249B4D2200707679 /* LaunchScreen.storyboard */,
-				CB1BD2C1249B4D2200707679 /* Info.plist */,
-			);
-			path = iosApp;
-			sourceTree = "<group>";
-		};
-		CB1BD2CA249B4D4C00707679 /* MacosCLI */ = {
-			isa = PBXGroup;
-			children = (
-				CB1BD2CB249B4D4C00707679 /* main.swift */,
-			);
-			path = MacosCLI;
-			sourceTree = "<group>";
-		};
-		CB1BD2D5249B4DDC00707679 /* TVosApp */ = {
-			isa = PBXGroup;
-			children = (
-				CB1BD2D6249B4DDC00707679 /* AppDelegate.swift */,
-				CB1BD2D8249B4DDC00707679 /* ViewController.swift */,
-				CB1BD2DA249B4DDC00707679 /* Main.storyboard */,
-				CB1BD2DD249B4DDC00707679 /* Assets.xcassets */,
-				CB1BD2DF249B4DDC00707679 /* LaunchScreen.storyboard */,
-				CB1BD2E2249B4DDC00707679 /* Info.plist */,
-			);
-			path = TVosApp;
-			sourceTree = "<group>";
-		};
-		CB1BD2EF249B4DF700707679 /* WatchosApp WatchKit App */ = {
-			isa = PBXGroup;
-			children = (
-				CB1BD2F0249B4DF700707679 /* Interface.storyboard */,
-				CB1BD2F3249B4DF700707679 /* Assets.xcassets */,
-				CB1BD2F5249B4DF700707679 /* Info.plist */,
-			);
-			path = "WatchosApp WatchKit App";
-			sourceTree = "<group>";
-		};
-		CB1BD2FE249B4DF700707679 /* WatchosApp WatchKit Extension */ = {
-			isa = PBXGroup;
-			children = (
-				CB1BD2FF249B4DF700707679 /* InterfaceController.swift */,
-				CB1BD301249B4DF700707679 /* ExtensionDelegate.swift */,
-				CB1BD303249B4DF700707679 /* NotificationController.swift */,
-				CB1BD305249B4DF800707679 /* Assets.xcassets */,
-				CB1BD307249B4DF800707679 /* Info.plist */,
-				CB1BD308249B4DF800707679 /* PushNotificationPayload.apns */,
-			);
-			path = "WatchosApp WatchKit Extension";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		BD0A4CA32DC2704D00FC6E3D /* WatchosApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD0A4CB82DC2704E00FC6E3D /* Build configuration list for PBXNativeTarget "WatchosApp" */;
+			buildPhases = (
+				7AEC1558B30183E3FB518051 /* [CP] Check Pods Manifest.lock */,
+				BD0A4CA22DC2704D00FC6E3D /* Resources */,
+				BD0A4CB72DC2704E00FC6E3D /* Embed Watch Content */,
+				0D0D8DA74C0EE3985280A759 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BD0A4CAC2DC2704D00FC6E3D /* PBXTargetDependency */,
+			);
+			name = WatchosApp;
+			productName = WatchosApp;
+			productReference = BD0A4CA42DC2704D00FC6E3D /* WatchosApp.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		BD0A4CA82DC2704D00FC6E3D /* WatchosApp Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD0A4CB42DC2704E00FC6E3D /* Build configuration list for PBXNativeTarget "WatchosApp Watch App" */;
+			buildPhases = (
+				9E66277583C806597D8EED04 /* [CP] Check Pods Manifest.lock */,
+				BD0A4CA52DC2704D00FC6E3D /* Sources */,
+				BD0A4CA62DC2704D00FC6E3D /* Frameworks */,
+				BD0A4CA72DC2704D00FC6E3D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				BD0A4CAD2DC2704D00FC6E3D /* WatchosApp Watch App */,
+			);
+			name = "WatchosApp Watch App";
+			productName = "WatchosApp Watch App";
+			productReference = BD0A4CA92DC2704D00FC6E3D /* WatchosApp Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
 		CB1BD2AF249B4D2000707679 /* iosApp */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = CB1BD2C2249B4D2200707679 /* Build configuration list for PBXNativeTarget "iosApp" */;
 			buildPhases = (
-				10198390C5F975A565A386A0 /* [CP] Check Pods Manifest.lock */,
+				71DA893BC3C26C1F331FA42E /* [CP] Check Pods Manifest.lock */,
 				CB1BD2AC249B4D2000707679 /* Sources */,
 				CB1BD2AD249B4D2000707679 /* Frameworks */,
 				CB1BD2AE249B4D2000707679 /* Resources */,
@@ -320,6 +247,9 @@
 			buildRules = (
 			);
 			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				BD0A4CE32DC2724700FC6E3D /* iosApp */,
 			);
 			name = iosApp;
 			productName = iosApp;
@@ -330,7 +260,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CB1BD2CD249B4D4C00707679 /* Build configuration list for PBXNativeTarget "MacosCLI" */;
 			buildPhases = (
-				A8059F327CB60515B4BA98E6 /* [CP] Check Pods Manifest.lock */,
+				9A587DC0D3585D9AB4EF3EDB /* [CP] Check Pods Manifest.lock */,
 				CB1BD2C5249B4D4C00707679 /* Sources */,
 				CB1BD2C6249B4D4C00707679 /* Frameworks */,
 				CB1BD2C7249B4D4C00707679 /* CopyFiles */,
@@ -338,6 +268,9 @@
 			buildRules = (
 			);
 			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				BD0A4CDE2DC2724400FC6E3D /* MacosCLI */,
 			);
 			name = MacosCLI;
 			productName = MacosCLI;
@@ -348,7 +281,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CB1BD2E3249B4DDC00707679 /* Build configuration list for PBXNativeTarget "TVosApp" */;
 			buildPhases = (
-				FA077B9961F2AD1D35136F1A /* [CP] Check Pods Manifest.lock */,
+				E83CB3DD182676FE822A3535 /* [CP] Check Pods Manifest.lock */,
 				CB1BD2D0249B4DDC00707679 /* Sources */,
 				CB1BD2D1249B4DDC00707679 /* Frameworks */,
 				CB1BD2D2249B4DDC00707679 /* Resources */,
@@ -357,66 +290,13 @@
 			);
 			dependencies = (
 			);
+			fileSystemSynchronizedGroups = (
+				BD0A4CD92DC2724000FC6E3D /* TVosApp */,
+			);
 			name = TVosApp;
 			productName = TVosApp;
 			productReference = CB1BD2D4249B4DDC00707679 /* TVosApp.app */;
 			productType = "com.apple.product-type.application";
-		};
-		CB1BD2E7249B4DF600707679 /* WatchosApp */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = CB1BD311249B4DF800707679 /* Build configuration list for PBXNativeTarget "WatchosApp" */;
-			buildPhases = (
-				4FF7D9B56AAED1D26FA66698 /* [CP] Check Pods Manifest.lock */,
-				CB1BD2E6249B4DF600707679 /* Resources */,
-				CB1BD310249B4DF800707679 /* Embed Watch Content */,
-				A14D9B4E0DE308EBEDBE323F /* Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				CB1BD2EE249B4DF700707679 /* PBXTargetDependency */,
-			);
-			name = WatchosApp;
-			productName = WatchosApp;
-			productReference = CB1BD2E8249B4DF600707679 /* WatchosApp.app */;
-			productType = "com.apple.product-type.application.watchapp2-container";
-		};
-		CB1BD2EA249B4DF700707679 /* WatchosApp WatchKit App */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = CB1BD30D249B4DF800707679 /* Build configuration list for PBXNativeTarget "WatchosApp WatchKit App" */;
-			buildPhases = (
-				FED1076B3BD04E37A351786F /* [CP] Check Pods Manifest.lock */,
-				CB1BD2E9249B4DF700707679 /* Resources */,
-				CB1BD30C249B4DF800707679 /* Embed App Extensions */,
-				E40C55B407805C6F6E60E75A /* Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				CB1BD2FD249B4DF700707679 /* PBXTargetDependency */,
-			);
-			name = "WatchosApp WatchKit App";
-			productName = "WatchosApp WatchKit App";
-			productReference = CB1BD2EB249B4DF700707679 /* WatchosApp WatchKit App.app */;
-			productType = "com.apple.product-type.application.watchapp2";
-		};
-		CB1BD2F9249B4DF700707679 /* WatchosApp WatchKit Extension */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = CB1BD309249B4DF800707679 /* Build configuration list for PBXNativeTarget "WatchosApp WatchKit Extension" */;
-			buildPhases = (
-				CB229EB7AE1035E2CD19822A /* [CP] Check Pods Manifest.lock */,
-				CB1BD2F6249B4DF700707679 /* Sources */,
-				CB1BD2F7249B4DF700707679 /* Frameworks */,
-				CB1BD2F8249B4DF700707679 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "WatchosApp WatchKit Extension";
-			productName = "WatchosApp WatchKit Extension";
-			productReference = CB1BD2FA249B4DF700707679 /* WatchosApp WatchKit Extension.appex */;
-			productType = "com.apple.product-type.watchkit2-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -424,31 +304,29 @@
 		CB1BD2A6249B4CDC00707679 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1150;
+				LastSwiftUpdateCheck = 1630;
 				LastUpgradeCheck = 1150;
 				TargetAttributes = {
+					BD0A4CA32DC2704D00FC6E3D = {
+						CreatedOnToolsVersion = 16.3;
+					};
+					BD0A4CA82DC2704D00FC6E3D = {
+						CreatedOnToolsVersion = 16.3;
+					};
 					CB1BD2AF249B4D2000707679 = {
 						CreatedOnToolsVersion = 11.5;
+						LastSwiftMigration = 1630;
 					};
 					CB1BD2C8249B4D4C00707679 = {
 						CreatedOnToolsVersion = 11.5;
 					};
 					CB1BD2D3249B4DDC00707679 = {
 						CreatedOnToolsVersion = 11.5;
-					};
-					CB1BD2E7249B4DF600707679 = {
-						CreatedOnToolsVersion = 11.5;
-					};
-					CB1BD2EA249B4DF700707679 = {
-						CreatedOnToolsVersion = 11.5;
-					};
-					CB1BD2F9249B4DF700707679 = {
-						CreatedOnToolsVersion = 11.5;
+						LastSwiftMigration = 1630;
 					};
 				};
 			};
 			buildConfigurationList = CB1BD2A9249B4CDC00707679 /* Build configuration list for PBXProject "severalTargetsXcodeProject" */;
-			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -456,6 +334,7 @@
 				Base,
 			);
 			mainGroup = CB1BD2A5249B4CDC00707679;
+			preferredProjectObjectVersion = 77;
 			productRefGroup = CB1BD2B1249B4D2000707679 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -463,21 +342,31 @@
 				CB1BD2AF249B4D2000707679 /* iosApp */,
 				CB1BD2C8249B4D4C00707679 /* MacosCLI */,
 				CB1BD2D3249B4DDC00707679 /* TVosApp */,
-				CB1BD2E7249B4DF600707679 /* WatchosApp */,
-				CB1BD2EA249B4DF700707679 /* WatchosApp WatchKit App */,
-				CB1BD2F9249B4DF700707679 /* WatchosApp WatchKit Extension */,
+				BD0A4CA32DC2704D00FC6E3D /* WatchosApp */,
+				BD0A4CA82DC2704D00FC6E3D /* WatchosApp Watch App */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		BD0A4CA22DC2704D00FC6E3D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD0A4CA72DC2704D00FC6E3D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		CB1BD2AE249B4D2000707679 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CB1BD2C0249B4D2200707679 /* LaunchScreen.storyboard in Resources */,
-				CB1BD2BD249B4D2200707679 /* Assets.xcassets in Resources */,
-				CB1BD2BB249B4D2000707679 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -485,40 +374,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CB1BD2E1249B4DDC00707679 /* LaunchScreen.storyboard in Resources */,
-				CB1BD2DE249B4DDC00707679 /* Assets.xcassets in Resources */,
-				CB1BD2DC249B4DDC00707679 /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CB1BD2E6249B4DF600707679 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CB1BD2E9249B4DF700707679 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				CB1BD2F4249B4DF700707679 /* Assets.xcassets in Resources */,
-				CB1BD2F2249B4DF700707679 /* Interface.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CB1BD2F8249B4DF700707679 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				CB1BD306249B4DF800707679 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		10198390C5F975A565A386A0 /* [CP] Check Pods Manifest.lock */ = {
+		71DA893BC3C26C1F331FA42E /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -540,7 +402,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		4FF7D9B56AAED1D26FA66698 /* [CP] Check Pods Manifest.lock */ = {
+		7AEC1558B30183E3FB518051 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -562,7 +424,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		A8059F327CB60515B4BA98E6 /* [CP] Check Pods Manifest.lock */ = {
+		9A587DC0D3585D9AB4EF3EDB /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -584,7 +446,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		CB229EB7AE1035E2CD19822A /* [CP] Check Pods Manifest.lock */ = {
+		9E66277583C806597D8EED04 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -599,14 +461,14 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-WatchosApp WatchKit Extension-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-WatchosApp Watch App-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		FA077B9961F2AD1D35136F1A /* [CP] Check Pods Manifest.lock */ = {
+		E83CB3DD182676FE822A3535 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -628,38 +490,20 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		FED1076B3BD04E37A351786F /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-WatchosApp WatchKit App-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		BD0A4CA52DC2704D00FC6E3D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		CB1BD2AC249B4D2000707679 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CB1BD2B8249B4D2000707679 /* ViewController.swift in Sources */,
-				CB1BD2B4249B4D2000707679 /* AppDelegate.swift in Sources */,
-				CB1BD2B6249B4D2000707679 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -667,7 +511,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CB1BD2CC249B4D4C00707679 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -675,80 +518,314 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CB1BD2D9249B4DDC00707679 /* ViewController.swift in Sources */,
-				CB1BD2D7249B4DDC00707679 /* AppDelegate.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CB1BD2F6249B4DF700707679 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				CB1BD304249B4DF700707679 /* NotificationController.swift in Sources */,
-				CB1BD302249B4DF700707679 /* ExtensionDelegate.swift in Sources */,
-				CB1BD300249B4DF700707679 /* InterfaceController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		CB1BD2EE249B4DF700707679 /* PBXTargetDependency */ = {
+		BD0A4CAC2DC2704D00FC6E3D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = CB1BD2EA249B4DF700707679 /* WatchosApp WatchKit App */;
-			targetProxy = CB1BD2ED249B4DF700707679 /* PBXContainerItemProxy */;
-		};
-		CB1BD2FD249B4DF700707679 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = CB1BD2F9249B4DF700707679 /* WatchosApp WatchKit Extension */;
-			targetProxy = CB1BD2FC249B4DF700707679 /* PBXContainerItemProxy */;
+			target = BD0A4CA82DC2704D00FC6E3D /* WatchosApp Watch App */;
+			targetProxy = BD0A4CAB2DC2704D00FC6E3D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
-/* Begin PBXVariantGroup section */
-		CB1BD2B9249B4D2000707679 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CB1BD2BA249B4D2000707679 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		CB1BD2BE249B4D2200707679 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CB1BD2BF249B4D2200707679 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-		CB1BD2DA249B4DDC00707679 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CB1BD2DB249B4DDC00707679 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		CB1BD2DF249B4DDC00707679 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CB1BD2E0249B4DDC00707679 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-		CB1BD2F0249B4DF700707679 /* Interface.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CB1BD2F1249B4DF700707679 /* Base */,
-			);
-			name = Interface.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
-
 /* Begin XCBuildConfiguration section */
+		BD0A4CB52DC2704E00FC6E3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 073C3209F20F4D280580C42F /* Pods-WatchosApp Watch App.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = WatchosApp;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = org.jetbrains.kotlin.samples.WatchosApp.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 11.4;
+			};
+			name = Debug;
+		};
+		BD0A4CB62DC2704E00FC6E3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A7AE19F3B271A986FA758600 /* Pods-WatchosApp Watch App.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = WatchosApp;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = org.jetbrains.kotlin.samples.WatchosApp.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 11.4;
+			};
+			name = Release;
+		};
+		BD0A4CB92DC2704E00FC6E3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9AE5EDB5D38387FE2D03A2C8 /* Pods-WatchosApp.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = WatchosApp;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = org.jetbrains.kotlin.samples.WatchosApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		BD0A4CBA2DC2704E00FC6E3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B4772FC76BA8F8C1AA5175B /* Pods-WatchosApp.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = WatchosApp;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = org.jetbrains.kotlin.samples.WatchosApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 		CB1BD2AA249B4CDC00707679 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -763,7 +840,7 @@
 		};
 		CB1BD2C3249B4D2200707679 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3990CBD18133DB2B3950BF2A /* Pods-iosApp.debug.xcconfig */;
+			baseConfigurationReference = 1B599EDB55B2EA2D3AA853EB /* Pods-iosApp.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -798,7 +875,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEVELOPMENT_TEAM = 9FV2DJ9Q9V;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -815,8 +892,13 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = iosApp/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -828,6 +910,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -836,7 +919,7 @@
 		};
 		CB1BD2C4249B4D2200707679 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5F4F0B7BA60A27DDA8F912E7 /* Pods-iosApp.release.xcconfig */;
+			baseConfigurationReference = B6B1FD987B3266508DC6F67C /* Pods-iosApp.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -871,7 +954,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEVELOPMENT_TEAM = 9FV2DJ9Q9V;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -882,8 +965,13 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = iosApp/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -894,6 +982,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -903,7 +992,7 @@
 		};
 		CB1BD2CE249B4D4C00707679 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B1D2B5D5D29EE3B5ADF7DA9E /* Pods-MacosCLI.debug.xcconfig */;
+			baseConfigurationReference = 2DAED3B0E22BD6933C35FAF0 /* Pods-MacosCLI.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -934,7 +1023,9 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEVELOPMENT_TEAM = "";
@@ -955,7 +1046,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MACOSX_DEPLOYMENT_TARGET = 13.5;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -970,7 +1061,7 @@
 		};
 		CB1BD2CF249B4D4C00707679 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8A5AD69C517E146F2E20F959 /* Pods-MacosCLI.release.xcconfig */;
+			baseConfigurationReference = 3A49883EBDD15089157637B4 /* Pods-MacosCLI.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -1001,7 +1092,9 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = "";
@@ -1016,7 +1109,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MACOSX_DEPLOYMENT_TARGET = 13.5;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1030,7 +1123,7 @@
 		};
 		CB1BD2E4249B4DDC00707679 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F0C4612AF73E3769415A29B1 /* Pods-TVosApp.debug.xcconfig */;
+			baseConfigurationReference = CF66472EB58A956851EF092B /* Pods-TVosApp.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
@@ -1065,7 +1158,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEVELOPMENT_TEAM = 9FV2DJ9Q9V;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -1082,7 +1175,9 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = TVosApp/Info.plist;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Automatic;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1094,16 +1189,17 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 3;
-				TVOS_DEPLOYMENT_TARGET = 13.4;
+				TVOS_DEPLOYMENT_TARGET = 16.6;
 			};
 			name = Debug;
 		};
 		CB1BD2E5249B4DDC00707679 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B9BB0FD19E93A504C61D0649 /* Pods-TVosApp.release.xcconfig */;
+			baseConfigurationReference = 5516925726421EE0CC88D672 /* Pods-TVosApp.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
@@ -1138,7 +1234,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEVELOPMENT_TEAM = 9FV2DJ9Q9V;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -1149,7 +1245,9 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = TVosApp/Info.plist;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Automatic;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1160,420 +1258,11 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 3;
-				TVOS_DEPLOYMENT_TARGET = 13.4;
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		CB1BD30A249B4DF800707679 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C5F34FB6F56729F15D3D76CC /* Pods-WatchosApp WatchKit Extension.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_STYLE = Automatic;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEVELOPMENT_TEAM = 9FV2DJ9Q9V;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_TESTABILITY = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = "WatchosApp WatchKit Extension/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@executable_path/../../Frameworks",
-				);
-				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
-				MTL_FAST_MATH = YES;
-				ONLY_ACTIVE_ARCH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = org.jetbrains.kotlin.samples.WatchosApp.watchkitapp.watchkitextension;
-				PRODUCT_NAME = "${TARGET_NAME}";
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 6.2;
-			};
-			name = Debug;
-		};
-		CB1BD30B249B4DF800707679 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 32979BA66F43524FB6EC7B71 /* Pods-WatchosApp WatchKit Extension.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_STYLE = Automatic;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEVELOPMENT_TEAM = 9FV2DJ9Q9V;
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = "WatchosApp WatchKit Extension/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@executable_path/../../Frameworks",
-				);
-				MTL_ENABLE_DEBUG_INFO = NO;
-				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = org.jetbrains.kotlin.samples.WatchosApp.watchkitapp.watchkitextension;
-				PRODUCT_NAME = "${TARGET_NAME}";
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 4;
-				VALIDATE_PRODUCT = YES;
-				WATCHOS_DEPLOYMENT_TARGET = 6.2;
-			};
-			name = Release;
-		};
-		CB1BD30E249B4DF800707679 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4AA5CBD2B812BBF6FFF6F3FA /* Pods-WatchosApp WatchKit App.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_STYLE = Automatic;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEVELOPMENT_TEAM = 9FV2DJ9Q9V;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_TESTABILITY = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IBSC_MODULE = WatchosApp_WatchKit_Extension;
-				INFOPLIST_FILE = "WatchosApp WatchKit App/Info.plist";
-				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
-				MTL_FAST_MATH = YES;
-				ONLY_ACTIVE_ARCH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = org.jetbrains.kotlin.samples.WatchosApp.watchkitapp;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 6.2;
-			};
-			name = Debug;
-		};
-		CB1BD30F249B4DF800707679 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 55D12ACF4D95D9E91870D01F /* Pods-WatchosApp WatchKit App.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_STYLE = Automatic;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEVELOPMENT_TEAM = 9FV2DJ9Q9V;
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IBSC_MODULE = WatchosApp_WatchKit_Extension;
-				INFOPLIST_FILE = "WatchosApp WatchKit App/Info.plist";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = org.jetbrains.kotlin.samples.WatchosApp.watchkitapp;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 4;
-				VALIDATE_PRODUCT = YES;
-				WATCHOS_DEPLOYMENT_TARGET = 6.2;
-			};
-			name = Release;
-		};
-		CB1BD312249B4DF800707679 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D79354633BEA5F7606CB868C /* Pods-WatchosApp.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_STYLE = Automatic;
-				COPY_PHASE_STRIP = NO;
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEVELOPMENT_TEAM = 9FV2DJ9Q9V;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_TESTABILITY = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				MARKETING_VERSION = 1.0;
-				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
-				MTL_FAST_MATH = YES;
-				ONLY_ACTIVE_ARCH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = org.jetbrains.kotlin.samples.WatchosApp;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 5.0;
-			};
-			name = Debug;
-		};
-		CB1BD313249B4DF800707679 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 17CACAD262A1207E664A3285 /* Pods-WatchosApp.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_STYLE = Automatic;
-				COPY_PHASE_STRIP = NO;
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEVELOPMENT_TEAM = 9FV2DJ9Q9V;
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				MARKETING_VERSION = 1.0;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = org.jetbrains.kotlin.samples.WatchosApp;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
-				SWIFT_VERSION = 5.0;
+				TVOS_DEPLOYMENT_TARGET = 16.6;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -1581,6 +1270,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		BD0A4CB42DC2704E00FC6E3D /* Build configuration list for PBXNativeTarget "WatchosApp Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD0A4CB52DC2704E00FC6E3D /* Debug */,
+				BD0A4CB62DC2704E00FC6E3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD0A4CB82DC2704E00FC6E3D /* Build configuration list for PBXNativeTarget "WatchosApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD0A4CB92DC2704E00FC6E3D /* Debug */,
+				BD0A4CBA2DC2704E00FC6E3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		CB1BD2A9249B4CDC00707679 /* Build configuration list for PBXProject "severalTargetsXcodeProject" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1613,33 +1320,6 @@
 			buildConfigurations = (
 				CB1BD2E4249B4DDC00707679 /* Debug */,
 				CB1BD2E5249B4DDC00707679 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		CB1BD309249B4DF800707679 /* Build configuration list for PBXNativeTarget "WatchosApp WatchKit Extension" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				CB1BD30A249B4DF800707679 /* Debug */,
-				CB1BD30B249B4DF800707679 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		CB1BD30D249B4DF800707679 /* Build configuration list for PBXNativeTarget "WatchosApp WatchKit App" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				CB1BD30E249B4DF800707679 /* Debug */,
-				CB1BD30F249B4DF800707679 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		CB1BD311249B4DF800707679 /* Build configuration list for PBXNativeTarget "WatchosApp" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				CB1BD312249B4DF800707679 /* Debug */,
-				CB1BD313249B4DF800707679 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

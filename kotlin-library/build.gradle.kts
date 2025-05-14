@@ -1,23 +1,19 @@
 plugins {
-    kotlin("multiplatform")
-    kotlin("native.cocoapods")
+    alias(libs.plugins.kotlinMultiplatform)
+    alias(libs.plugins.kotlinCocoapods)
 }
 
 group = "org.jetbrains.kotlin.sample.native"
 version = "1.0"
 
 kotlin {
-    iosX64()
     iosArm64()
     iosSimulatorArm64()
-    macosX64()
     macosArm64()
-    tvosX64()
     tvosArm64()
     tvosSimulatorArm64()
-    watchosX64()
-    watchosArm64()
     watchosSimulatorArm64()
+    watchosDeviceArm64()
 
     cocoapods {
         summary = "Kotlin CocoaPods library"
@@ -25,12 +21,13 @@ kotlin {
 
         podfile = project.file("../severalTargetsXcodeProject/Podfile")
 
-        ios.deploymentTarget = "13.5"
-        osx.deploymentTarget = "10.15"
-        tvos.deploymentTarget = "13.4"
-        watchos.deploymentTarget = "6.2"
+        ios.deploymentTarget = "16.6"
+        osx.deploymentTarget = "13.5"
+        tvos.deploymentTarget = "16.6"
+        watchos.deploymentTarget = "9.6"
 
         framework {
+            baseName = "KotlinLibrary"
             isStatic = true
         }
     }

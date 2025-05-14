@@ -4,7 +4,7 @@
 target 'iosApp' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
-  platform :ios, '13.5'
+  platform :ios, '16.6'
   # Pods for iosApp
   pod 'kotlin_library', :path => '../kotlin-library'
 end
@@ -12,17 +12,16 @@ end
 target 'MacosCLI' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
-  platform :osx, '10.15'
+  platform :osx, '13.5'
   
   # Pods for MacosCLI
   pod 'kotlin_library', :path => '../kotlin-library'
-  
 end
 
 target 'TVosApp' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
-  platform :tvos, '13.4'
+  platform :tvos, '16.6'
   
   # Pods for TVosApp
   pod 'kotlin_library', :path => '../kotlin-library'
@@ -31,26 +30,17 @@ end
 target 'WatchosApp' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
-  platform :watchos, '6.2'
+  platform :watchos, '9.6'
   
   # Pods for WatchosApp
   pod 'kotlin_library', :path => '../kotlin-library'
 end
 
-target 'WatchosApp WatchKit App' do
+target 'WatchosApp Watch App' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
-  platform :watchos, '6.2'
+  platform :watchos, '9.6'
   
   # Pods for WatchosApp WatchKit App
-  pod 'kotlin_library', :path => '../kotlin-library'
-end
-
-target 'WatchosApp WatchKit Extension' do
-  # Comment the next line if you don't want to use dynamic frameworks
-  use_frameworks!
-  platform :watchos, '6.2'
-
-  # Pods for WatchosApp WatchKit Extension
   pod 'kotlin_library', :path => '../kotlin-library'
 end
